@@ -41,7 +41,9 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
                 mInterstitialAd = new InterstitialAd(context);
-                mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+                mInterstitialAd.setAdUnitId("ca-app-pub-6760835969070814/4954882160");
+                //real: ca-app-pub-6760835969070814/4954882160
+                //testing: ca-app-pub-3940256099942544/1033173712
 
                 mInterstitialAd.setAdListener(new AdListener() {
                     @Override
